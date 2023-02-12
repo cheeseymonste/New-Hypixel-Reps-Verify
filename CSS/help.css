@@ -1,0 +1,53 @@
+.helpPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 1800px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgba(54, 54, 54, 0.8);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: -7px 7px 20px rgba(0, 0, 0, 0.5);
+}
+
+.q1,
+.q2,
+.q3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.q2,
+.q3 {
+  margin-top: 20px;
+}
+.a1,
+.a1-start,
+.a2,
+.a3,
+.a3-end {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.a1-start,
+.a3-end {
+  margin-bottom: 15px;
+}
+
+.a1-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
